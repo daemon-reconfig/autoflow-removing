@@ -45,6 +45,12 @@ const SideBar = (props: Props) => {
                                     </Link>
                                 </li>
                             </TooltipTrigger>
+                            <TooltipContent
+                            side='right'
+                            className='bg-black/10 backdrop-blur-xl'
+                            >
+                                <p>{menuItem.name}</p>
+                            </TooltipContent>
                         </Tooltip>
 
                     </ul>
