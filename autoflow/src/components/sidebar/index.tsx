@@ -25,10 +25,10 @@ const SideBar = (props: Props) => {
     flex-col gap-10 py-6 px-2'>
         <div className='flex items-center justify-center flex-col gap-8'>
             <Link
-                className='flex font-bold flex-row'
+                className='flex font-bold flex-row '
                 href="/"
             >
-                <Image src='/logo.png' width={52} height={52} alt='AutoFlow Logo' />
+               AutoFlow
             </Link>
             <TooltipProvider>
                 {menuOptions.map((menuItem)=>(
